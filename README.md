@@ -11,6 +11,7 @@ Just a little background:
 
 ## Run
 `git clone git@github.com:dharkflower/base-10.git`
+
 `node index.js`
 
 ## Streams, Bro?
@@ -26,10 +27,11 @@ There is an idea I've been pondering that's some sort of GUI that kicks out hard
 20 years from now when there is a software-to-hardware transpiler (ha) you could transpile this Node script to some sort of hardware component.
 
 ## What does this repo do?
-It compiles hypothetical example base 10 code to base 2 (binary) code. It's a hypothetical middleware, written in software, that would be transpiled to hardware. I don't even get it yet. I think I'm going to make something that transpiles binary to base 10 after this, but whatever. I wanted to kick this out.
+It compiles hypothetical example base 10 code to base 2 (binary) code. It's a some sort of hypothetical middleware or something, written in software, that would be transpiled to hardware. I don't even get it yet. I think I'm going to make something that transpiles binary to base 10 after this, but whatever. I wanted to kick this out.
 
 ## Files
 `binary`: this is where you put the base 10 code.
+
 `index.js`: this pulls in the base 10 code and kicks out hybrid binary/trinary code
 
 ## What about trinary?
@@ -55,13 +57,21 @@ There are certain digits that trigger certain flags, so that this hypothetical h
 
 ## Variables
 `z`: cache
+
 `y`: palindrome ("spelled" the same forwards and backwards, ie. racecar or taco cat)
+
 `s`: base 10 code (pulls in from `binary` file)
+
 `i`: what position in the base 10 code it's at
+
 `f`: object of flags
+
 `d`: current digit
+
 `n`: digit 1 digit forward
+
 `c`: digit 2 digits forward
+
 `l`: for loop iterator
 
 
@@ -99,4 +109,9 @@ Take this code for example: `00 4 1111 1111 1111 1111 4 00 5 5 5 5 5 5 5 00`. It
 - There are other digit function ideas out there that identify patterns and could result in, at the very least, compression.
 - A simpler approach with base 4 (only supporting 0, 1, 2, and 3 from this repo) could align better with the nature of binary, while also supporting trinary
 
-Thank you! Again, to run: `git clone git@github.com:dharkflower/base-10.git`, `node index.js`. It also supports `node index.js [[ hybrid code ]]`.
+Thank you! Again, to run:
+
+`git clone git@github.com:dharkflower/base-10.git`
+
+`node index.js`
+It also supports `node index.js {{ base 10 }}`.
