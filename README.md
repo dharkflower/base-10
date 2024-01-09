@@ -113,5 +113,6 @@ Thank you! Again, to run:
 
 `git clone git@github.com:dharkflower/base-10.git`
 
-`node index.js`
-It also supports `node index.js {{ base 10 }}`.
+`node index.js` or
+
+`node index.js {{ base 10 }}`.
