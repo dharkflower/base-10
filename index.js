@@ -16,7 +16,7 @@ let f = {
 }
 
 if( process.argv.hasOwnProperty(2) ) s = process . argv[2] . toString()
-else s = ( require('fs') ) . readFileSync('./hybrid') . toString()
+else s = ( require('fs') ) . readFileSync('./base10') . toString()
 console . log('base10:', s)
 o . write("hybrid: ")
 
