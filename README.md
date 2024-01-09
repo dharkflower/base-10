@@ -30,7 +30,7 @@ There is an idea I've been pondering that's some sort of GUI that kicks out hard
 It compiles hypothetical example base 10 code to base 2 (binary) code. It's a some sort of hypothetical middleware or something, written in software, that would be transpiled to hardware. I don't even get it yet. I think I'm going to make something that transpiles binary to base 10 after this, but whatever. I wanted to kick this out.
 
 ## Files
-`binary`: this is where you put the base 10 code.
+`hybrid`: this is where you put the base 10 code.
 
 `index.js`: this pulls in the base 10 code and kicks out hybrid binary/trinary code
 
@@ -56,11 +56,13 @@ There are certain digits that trigger certain flags, so that this hypothetical h
 - `9`: palindrome flush
 
 ## Variables
+`o`: process.stdout, just a shortener
+
 `z`: cache
 
 `y`: palindrome ("spelled" the same forwards and backwards, ie. racecar or taco cat)
 
-`s`: base 10 code (pulls in from `binary` file)
+`s`: base 10 code (pulls in from `hybrid` file)
 
 `i`: what position in the base 10 code it's at
 
@@ -92,7 +94,7 @@ If it hits an 8, it begins the palindrome printing process (also known as P3). I
 
 If it hits a 9, it resets `y`.
 
-## `binary` Breakdown
+## `hybrid` Breakdown
 It shows an example of each digit being used. It contains: `01 291 00 3 012 012 3 01 4 1111 4 00 5 01 6 01 7 11001 7 00 82 01`. The binary output, as you'll see if you run it, is: `01 111111111 00 012 012 01 1111 00 1111 01 01 11001 00 11001 10011 01`.
 
 ## Other Digit Function Ideas
@@ -115,4 +117,4 @@ Thank you! Again, to run:
 
 `node index.js` or
 
-`node index.js {{ base 10 }}`.
+`node index.js {{ base 10 }}`

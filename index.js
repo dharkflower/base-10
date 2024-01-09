@@ -1,4 +1,6 @@
-process . stdout . write("\n")
+const o = process.stdout
+
+o . write("\n")
 
 let s
 let z = ''
@@ -14,9 +16,9 @@ let f = {
 }
 
 if( process.argv.hasOwnProperty(2) ) s = process . argv[2] . toString()
-else s = ( require('fs') ) . readFileSync('./binary') . toString()
-console . log('string:', s)
-process . stdout . write("output: ")
+else s = ( require('fs') ) . readFileSync('./hybrid') . toString()
+console . log('base10:', s)
+o . write("hybrid: ")
 
 do {
 
@@ -27,10 +29,11 @@ do {
 	switch(parseInt(d)) {
 
 		case 2:
+
 			if(f[3]) {
 
 				// ternary
-				process . stdout . write('2')
+				o . write('2')
 			}
 
 			else {
@@ -38,7 +41,7 @@ do {
 				c = s . charAt(i + 2)
 
 				for( let l = 0; l < n; l++ ) {
-					process . stdout . write(c)
+					o . write(c)
 				}
 
 				i++
@@ -46,28 +49,35 @@ do {
 			}
 
 			break;
+
 		case 3:
 		case 4:
+
 			f[d] = !f[d]
 			break;
+
 		case 5:
-			process . stdout . write(z)
+
+			o . write(z)
 			break;
+
 		case 6:
+
 			z = ''
 			break;
+
 		case 7:
 
 			f[d] = !f[d]
 			continue
-
 			break;
+
 		case 8:
 
 			n = s . charAt(i + 1)
 
 			for( let l = 0; l < n; l++ ) {
-				process . stdout . write(y)
+				o . write(y)
 				y = y . split('') . reverse() . join('')
 			}
 
@@ -75,8 +85,11 @@ do {
 			i++
 
 			break;
+
 		case 9:
+
 			y = ''
+
 			break;
 
 		// 0, 1
@@ -90,12 +103,13 @@ do {
 				y += d
 			}
 
-			process . stdout . write(d)
+			o . write(d)
 			f[d] = !f[d]
+
 			break;
 	}
 
 
 } while(i++ < s . length)
 
-process . stdout . write("\n\n")
+o . write("\n\n")
