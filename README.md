@@ -1,3 +1,6 @@
+## Formatting
+Straight up gorgeous. Tell someone at Node.js central to check this out.
+
 ## Base 10 JS
 Just a little background:
 - I tend to try coding *experiments* over creating viable products when coding for fun. I know this may be easily discounted on various levels, but know that this is in fact a learning experiment; I do and will always consider myself a n00b.
@@ -27,7 +30,7 @@ There is an idea I've been pondering that's some sort of GUI that kicks out hard
 20 years from now when there is a software-to-hardware transpiler (ha) you could transpile this Node script to some sort of hardware component.
 
 ## What does this repo do?
-It compiles hypothetical example base 10 code to base 2 (binary) code. It's a some sort of hypothetical middleware or something, written in software, that would be transpiled to hardware. I don't even get it yet. I think I'm going to make something that transpiles binary to base 10 after this, but whatever. I wanted to kick this out.
+It compiles hypothetical example base 10 code to base 2 (binary) code. It's a some sort of hypothetical middleware or something, written in software, that would be transpiled to hardware. I don't even get it yet.
 
 ## Files
 `base10`: this is where you put the base 10 code.
