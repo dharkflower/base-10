@@ -68,13 +68,13 @@ If it hits a 4, it turns on the cache flag. It still runs the following binary d
 
 If it hits a 5, it just prints `z`. Example `00 4 1111 4 01 5`. This binary code that would get run from this example is `00 1111 01 1111`.
 
-If it hits a 6, it resets `z`.
+If it hits a 6, it flushes the cache.
 
 If it hits a 7, it turns on the palindrome flag. It is similar to 4/5/6: it is a cache system. It still runs the following binary digits, but also adds them to `y` until it hits another 7. Example: `00 7 1011 7 00`.
 
 If it hits an 8, it begins the palindrome printing process (also known as P3). It captures the next digit (`n`) and runs the palindrome `c` number of times. Example: `00 7 1011 7 00 82`. The binary code that would get run from this example is `00 1011 00 1011 1101`: 00, the palindrome (1011), 00, the palindrome 2... times. or something. It's hard for me to explain because it's a literary concept, but the idea is that patterns could be identified in binary code that could be sort of "folded up" into a base 10 palindrome expression: `1011 1101` is spelled the same forwards and backwards. If these sorts of patterns were able to be folded up and P3'd it could potentially result in some sort of benefit. Here's a longer example: `00 7 1011 7 00 89`. It would output: `00 1011 00 1011 1101 1011 1101 1011 1101 1011 1101 1011`. It's sort of like a compression algorithm.
 
-If it hits a 9, it resets `y`.
+If it hits a 9, it flushes the palindrome.
 
 ## `base10` Breakdown
 It shows an example of each digit being used. It contains: `01 291 00 3 012 012 3 01 4 1111 4 00 5 01 6 01 7 11001 7 00 82 01`. The binary output, as you'll see if you run it, is: `01 111111111 00 012 012 01 1111 00 1111 01 01 11001 00 11001 10011 01`.
