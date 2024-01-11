@@ -58,27 +58,6 @@ There are certain digits that trigger certain flags, so that this hypothetical h
 - `8`: palindrome print
 - `9`: palindrome flush
 
-## Variables
-`o`: process.stdout, just a shortener
-
-`z`: cache
-
-`y`: palindrome ("spelled" the same forwards and backwards, ie. racecar or taco cat)
-
-`s`: base 10 code (pulls in from `base10` file)
-
-`i`: what position in the base 10 code it's at
-
-`f`: object of flags
-
-`d`: current digit
-
-`n`: digit 1 digit forward
-
-`c`: digit 2 digits forward
-
-`l`: for loop iterator
-
 
 ## `index.js` Breakdown
 The idea is that each digit does something, whether that's a "function" (that might be transpiled to an instruction set... hmm), binary output, or trinary output.
