@@ -21,7 +21,7 @@ Just a little background:
 Couldn't figure it out.
 
 ## What be the point of this?
-The hypothesis is that there's some sort of beauty in a base 10 processor. Honestly, that's it. I know that doesn't necessarily translate to an appropriate use of scientific theory, but it is what it is. I don't know if that beauty is because I'm looking at a UTF-8 file of what I found out are Decimal integers that emulate HTML tags, or if there is some sort of simplification to be had in computer hardware that could result in blazing fast computations.
+The hypothesis is that there's some sort of beauty in a base 10 processor. Honestly, that's it. I know that doesn't necessarily translate to an appropriate use of scientific theory, but it is what it is. I don't know if that beauty is because I'm looking at at a file that's using an encoding of what I found out are Decimal integers that emulate HTML tags, or if there is some sort of simplification to be had in computer hardware that could result in blazing fast computations.
 
 ## Basic Rundown
 There is an idea I've been pondering that's some sort of GUI that kicks out hardware description language and some sort of computer chip blueprint. It would be a software-to-hardware transpiler, essentially. It is a separate experiment but it's relevant. I won't dive too deep into that right now.
