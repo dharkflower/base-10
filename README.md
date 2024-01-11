@@ -5,8 +5,8 @@ Straight up gorgeous. Tell someone at Node.js central to check this out.
 Just a little background:
 - I tend to try coding *experiments* over creating viable products when coding for fun. I know this may be easily discounted on various levels, but know that this is in fact a learning experiment; I do and will always consider myself a n00b.
 - I do not know anything about how computer hardware *works*, even though I can put together a bad-ass desktop. I get what each component is used for, I get that they have different speeds, etc. But I am a web developer and have never created firmware.
-- I do know that there's no current mainstream way around binary, and that pretty much everything else is experimental or expensive. Bite me. But based on a tiny bit of research on a confusing internet I am led to believe that the *least* experimental technology that is  would be either trinary or quantum.
-- I know that Node.js is a binary, that Unicode is a character set, and that this is not how it *works*. I get that. Please. Please don't.
+- I do know that there's no current mainstream way around binary, and that pretty much everything else is experimental or expensive. Bite me. But based on a tiny bit of research on a confusing internet I am led to believe that the *least* experimental technology that is still somewhat mainstream would be either trinary or quantum.
+- I know that Node.js is a binary, that Decimal is currently a character set, and that this is not how it *works*. I get that. Please. Please don't.
 - I do know that there is a lot I don't know about this.
 - Base 10 code is 10 times slower than binary without the concepts in this repo... because each digit would require a binary on/off signaler (?) or timer or something. Base 10 / Base 2 = 5, 5 * Binary = 10. I can't think about this too much or I get confused. 50% chance I have that math wrong. It's either 5, 10, or 20 times slower - without this repo.
 - This is a prototype to explain a hypothesis, I just happened to code it up in Node.
