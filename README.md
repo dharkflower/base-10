@@ -5,7 +5,7 @@ Straight up gorgeous. Tell someone at Node.js central to check this out.
 Just a little background:
 - I tend to try coding *experiments* over creating viable products when coding for fun. I know this may be easily discounted on various levels, but know that this is in fact a learning experiment; I do and will always consider myself a n00b.
 - I do not know anything about how computer hardware *works*, even though I can put together a bad-ass desktop. I get what each component is used for, I get that they have different speeds, etc. But I am a web developer and have never created firmware.
-- I do know that there's no current mainstream way around binary, and that pretty much everything else is experimental or expensive. Bite me. But based on a tiny bit of research on a confusing internet I am led to believe that the *least* experimental technology would be either trinary or quantum.
+- I do know that there's no current mainstream way around binary, and that pretty much everything else is experimental or expensive. Bite me. But based on a tiny bit of research on a confusing internet I am led to believe that the *least* experimental technology that is  would be either trinary or quantum.
 - I know that Node.js is a binary, that Unicode is a character set, and that this is not how it *works*. I get that. Please. Please don't.
 - I do know that there is a lot I don't know about this.
 - Base 10 code is 10 times slower than binary without the concepts in this repo... because each digit would require a binary on/off signaler (?) or timer or something. Base 10 / Base 2 = 5, 5 * Binary = 10. I can't think about this too much or I get confused. 50% chance I have that math wrong. It's either 5, 10, or 20 times slower - without this repo.
@@ -21,7 +21,7 @@ Just a little background:
 Couldn't figure it out.
 
 ## What be the point of this?
-The hypothesis is that there's some sort of beauty in a base 10 processor. Honestly, that's it. I know that doesn't necessarily translate to an appropriate use of scientific theory, but it is what it is. I don't know if that beauty is because I'm looking at a UTF-8 file of Unicode numbers that emulate HTML tags, or if there is some sort of simplification to be had in computer hardware that could result in blazing fast computations.
+The hypothesis is that there's some sort of beauty in a base 10 processor. Honestly, that's it. I know that doesn't necessarily translate to an appropriate use of scientific theory, but it is what it is. I don't know if that beauty is because I'm looking at a UTF-8 file of what I found out are Decimal integers that emulate HTML tags, or if there is some sort of simplification to be had in computer hardware that could result in blazing fast computations.
 
 ## Basic Rundown
 There is an idea I've been pondering that's some sort of GUI that kicks out hardware description language and some sort of computer chip blueprint. It would be a software-to-hardware transpiler, essentially. It is a separate experiment but it's relevant. I won't dive too deep into that right now.

@@ -1,4 +1,4 @@
-const o = process.stdout
+const o = process . stdout
 
 o . write("\n")
 
@@ -15,7 +15,7 @@ let f = {
 
 }
 
-if( process.argv.hasOwnProperty(2) ) s = process . argv[2] . toString()
+if( process . argv . hasOwnProperty(2) ) s = process . argv[2] . toString()
 else s = ( require('fs') ) . readFileSync('./base10') . toString()
 console . log('base10:', s)
 o . write("hybrid: ")
@@ -77,6 +77,9 @@ do {
 			n = s . charAt(i + 1)
 
 			for( let l = 0; l < n; l++ ) {
+
+				// potential bug in here
+
 				o . write(y)
 				y = y . split('') . reverse() . join('')
 			}
