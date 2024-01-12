@@ -1,5 +1,5 @@
 ## Formatting
-Straight up gorgeous. Tell someone at Node.js central to check this out.
+Straight up gorgeous.
 
 ## Base 10 JS
 Just a little background:
