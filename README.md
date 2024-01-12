@@ -15,7 +15,7 @@ Just a little background:
 ## Run
 `git clone git@github.com:dharkflower/base-10.git`
 
-`node index.js`
+`node index.js` or `node compile.js`
 
 ## Streams, Bro?
 Couldn't figure it out.
@@ -99,4 +99,6 @@ Thank you! Again, to run:
 
 `node index.js` or
 
-`node index.js {{ base 10 }}`
+`node index.js {{ base 10 }}` or
+
+`node compile.js`
