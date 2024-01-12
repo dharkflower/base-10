@@ -53,9 +53,9 @@ do {
 
 } while ( i++ < s . length )
 
-console . log (ps) ; sp() // (ps) ; )ps( = oscillation bro . . .
+console . log (ps) ; sp() // (ps) ; )sp( = oscillation bro . . .
 
-for ( let pal of Object . keys( ps)) {
+for ( let pal of Object . keys(ps)) {
 
 	z = pal [ str[0]] ( 0, l )
 	s = s [ str[4]] ( pal, ' 7 ' + z + ' 7 ' )
