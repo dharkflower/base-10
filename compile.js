@@ -15,8 +15,8 @@ const str = {
 
 let l, i, j, c, n, r, f, x, p, s, z, ps = {}, st = {}
 
-if ( pro . argv [ str[5]] ( 2 )) s = pro . argv[ 2 ] [ str[6]] ()
-else s = ( require('fs')) . readFileSync('./base2') [ str[6]] () [str[4]] (' ', '')
+if ( pro . argv [ str[5]] ( 2 )) s = pro . argv [ 2 ] [ str[6]] ()
+else s = ( require('fs')) . readFileSync('./base2') [ str[6]] () [ str[4]] (' ', '')
 
 out ( s ) ; sp() ; sp()
 
@@ -44,7 +44,7 @@ do {
 
 			p = n + x
 
-			if ( !ps [ str[5]] (p)) ps[ p ] = 0
+			if ( !ps [ str[5]] (p)) ps [ p ] = 0
 			ps[ p ]++
 
 		}
