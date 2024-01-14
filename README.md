@@ -33,9 +33,13 @@ There is an idea I've been pondering that's some sort of GUI that kicks out hard
 It compiles hypothetical example base 10 code to base 2 (binary) code. It's a some sort of hypothetical middleware or something, written in software, that would be transpiled to hardware. I don't even get it yet.
 
 ## Files
-`base10`: this is where you put the base 10 code.
+`base10`: this is where you put the base 10 code that uses the system below.
+
+`base2`: this is where you put the base 2 code that gets compiled to base 10 code.
 
 `index.js`: this pulls in the base 10 code and kicks out hybrid binary/trinary code
+
+`compile.js`: this analyzes base 2 code and optimizes it (theoretically)
 
 ## What about trinary?
 I don't know. I implemented it.
@@ -84,13 +88,13 @@ It shows an example of each digit being used. It contains: `01 291 00 3 012 012 
 - Oscillation. This is confusing me even more, but is another example of pattern analysis using the concept of oscillation from the production of digital music. Example, assuming the taking over of 7/8/9: `00 7 1011 7 00 82`, output: `00 1011101`. It's very similar to palindromic pattern recognition (P3), but could potentially identify long patterns that could be cached and recreated.
 
 ## Summary
-There are a lot of reasons that this does not make sense. But can you imagine the kind of pattern analysis you could get if you ran some sort of ML algorithm against it? The cap is a maximum of 9 P3/oscillation re-creations due to the nature of Unicode, and just the way I coded this up, but a combination of potentially smarter digit functions and a higher number base could result in some sort of strange blueprint that rocks - 20 years from now. :) Haha.
+There are a lot of reasons that this does not make sense. But can you imagine the kind of pattern analysis you could get if you ran some sort of ML algorithm against it? The cap is a maximum of 9 P3/oscillation re-creations due to the nature of Decimal, and just the way I coded this up, but a combination of potentially smarter digit functions and a higher number base could result in some sort of strange blueprint that rocks - 20 years from now. :) Haha.
 
 Take this code for example: `00 4 1111 1111 1111 1111 4 00 5 5 5 5 5 5 5 00`. It's pretty short, but if you check the string lengths it's kind of awe-inspiring: `00 1111 1111 1111 1111 00 1111 1111 1111 1111 1111 1111 1111 1111 1111 1111 1111 1111 1111 1111 1111 1111 1111 1111 1111 1111... I lost my place... 00`.
 
 ## Resulting Hypotheses
 - Hardware that is built with Node and base 10 in mind could natively support this repo.
-- There are other digit function ideas out there that identify patterns and could result in, at the very least, compression.
+- There are other digit function ideas out there that identify patterns and could result in, at the very least, a compression prototype.
 - A simpler approach with base 4 (only supporting 0, 1, 2, and 3 from this repo) could align better with the nature of binary, while also supporting trinary
 
 Thank you! Again, to run:
