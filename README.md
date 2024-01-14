@@ -96,6 +96,7 @@ Take this code for example: `00 4 1111 1111 1111 1111 4 00 5 5 5 5 5 5 5 00`. It
 - Hardware that is built with Node and base 10 in mind could natively support this repo.
 - There are other digit function ideas out there that identify patterns and could result in, at the very least, a compression prototype.
 - A simpler approach with base 4 (only supporting 0, 1, 2, and 3 from this repo) could align better with the nature of binary, while also supporting trinary
+- A potential "simplification" of this would be to have 2 binary processors and 2 trinary processors. I'm talking to people who have what I've heard called "f you money"; I know that that's expensive. That being said, 2 binary processors (4) plus 2 trinary processors (6) = 10. I don't know if that is translatable into hardware: I don't truly think that it is. I'm a student, but you must admit that there is in fact some sort of beauty in that math whether it's a sort of main processor unit that delegates to them, or a motherboard setup. Base 10. Boom. :) Student.
 
 Thank you! Again, to run:
 
